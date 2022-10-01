@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:milkpay/screens/Home/home.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const Scaffold(body: Text('Milk Dairy')),
+      home: const Home(),
     );
   }
 }
